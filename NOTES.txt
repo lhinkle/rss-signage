@@ -1,0 +1,48 @@
+Signs (Quantities) - location
+------------------------------
+Rackham
+-------
+UpArr Rackham Auditorium (1) - outside auditorium in lobby  // Should we list "Main Track" or something, too?
+UpArr Workshops XYZ (1) - Rackham east stairs, 1st floor
+LeftArr Workshops XYZ (1) - Rackham east stairs, 2nd floor
+RightArr Restrooms, Workshops XY (1) - Rackham east stairs, 3rd floor
+Earl Lewis Schedule (1 ea. Sat/Sun) - Rack. Earl Lewis, 3rd floor
+LeftArr Workshops X (1) - Rackham east stairs, 4th floor    // Point to everything west
+RightArr Workshops Z (1) - Rackham east stairs, 4th floor   // Point back to Earl Lewis
+East Conference Schedule (1 ea. Sat/Sun) - Rack. East Conference Room, 4th Floor
+West Conference Schedule (1 ea. Sat/Sun) - Rack. West Conference Room, 4th Floor
+Assembly Hall Schedule (1 ea. Sat/Sun) - Rack. Assembly Hall, 4th Floor
+Rackham Amphitheater Schedule (1 ea. Sat/Sun) - Rack. Amphitheater, 4th Floor
+UpArr Women's Restroom (1) - Rackham 4th floor
+UpArr Men's Restroom (1) - Rackham 4th floor
+
+North Quad
+----------
+RightArr Workshops WXY (1) - NQ Lobby, 2nd Floor
+UpArr Restrooms, WorkShops Z (1) - NQ Lobby, 2nd Floor
+NQ 2185 Schedule (1 ea. Sat/Sun) - NQ 2185, 2nd Floor
+LeftArr Restrooms, Workshops WX (1) - NQ intersection by 2185, 2nd Floor
+NQ 2245 Schedule (1 ea. Sat/Sun) - NQ 2245, 2nd Floor
+NQ 2255 Schedule (1 ea. Sat/Sun) - NQ 2255, 2nd Floor
+RightArr Restrooms, Workshops XYZ - NQ entrance by 2255, 2nd Floor
+DownArr Workshops W (1) - NQ Stairs by 2255, 2nd Floor
+UpArr Workshops XYZ (1) - NQ Stairs by 1265, 1st Floor
+NQ 1265 Schedule (1 ea. Sat/Sun) - NQ 1265, 1st Floor
+NQ 1255 Schedule (1 ea. Sat/Sun) - NQ 1255, 1st Floor
+RightArr Restrooms (1) - NQ intersection by 1255, 1st Floor)    // Or do we just force them to use the 2nd floor/find these ones?
+
+Michigan League
+---------------
+UpArr Poster Sessions (1) - Michigan League central stairs, 1st Floor
+LeftArr Poster Sessions (1) - Michigan League central stairs, 2nd Floor
+Poster Sessions (1) - Michigan League Ballroom, 2nd Floor
+
+Outdoors
+--------
+RightArr North Quad, Workshops WXYZ (1) - Outside Rackham main entrance pointing west, facing doors
+UpArr Michigan League, Poster Sessions (1) - Outside Rackham main entrance pointing south, facing doors
+LeftArr Rackham, Workshops XYZ (1) - Outside North Quad entrance pointing east, facing doors
+LeftArr Michigan League, Poster Sessions - Diag sidewalk directing people diagonally towards the League along existing walkways
+RightArr Michigan League, Poster Sessions - Diag sidewalk next to north side of League pointing towards main door
+LeftArr Michigan League, Poster Sessions (1) - Outside entrance of Michigan League facing North, s.t. arrow points into door
+
