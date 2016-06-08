@@ -1,0 +1,46 @@
+\documentclass[landscape]{article}
+
+\usepackage[margin=0.5in]{geometry}
+\usepackage[utf8]{inputenc}
+
+\input{rss-imgs.tex}
+
+\pagenumbering{gobble}
+
+\newcommand{\room}[1]{
+    \noindent
+    #1
+    \vspace{.2in}
+
+}
+
+\begin{document}
+
+\rssheader[2in]
+
+\vfill
+
+\usefont{T1}{phv}{m}{n}
+\fontsize{30pt}{36pt}
+\selectfont
+
+\begin{minipage}{\textwidth}
+    \begin{minipage}{6in}
+        \begin{center}
+            \room{Rackham Auditorium}
+            \room{Beyster Building}
+            \room{The Michigan League}
+            \room{A super duper long name of a place}
+        \end{center}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{3.5in}
+        \begin{center}
+            \rssarrowup[1.5in]
+        \end{center}
+    \end{minipage}
+\end{minipage}
+
+\vfill
+
+\end{document}
