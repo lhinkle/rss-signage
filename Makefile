@@ -5,15 +5,18 @@
 RACKHAM_TEX = $(shell ls rackham*.tex)
 LEAGUE_TEX = $(shell ls league*.tex)
 NQ_TEX = $(shell ls nq*.tex)
+EMPTY_TEX = empty.tex
 
 RACKHAM_PDF = $(RACKHAM_TEX:%.tex=%.pdf)
 LEAGUE_PDF = $(LEAGUE_TEX:%.tex=%.pdf)
 NQ_PDF = $(NQ_TEX:%.tex=%.pdf)
+EMPTY_PDF = empty.pdf
 
 OUTPUT_DIR = print-ready
 OUTPUT_PDF = $(addprefix $(OUTPUT_DIR)/, $(RACKHAM_PDF))
 OUTPUT_PDF += $(addprefix $(OUTPUT_DIR)/, $(LEAGUE_PDF))
 OUTPUT_PDF += $(addprefix $(OUTPUT_DIR)/, $(NQ_PDF))
+OUTPUT_PDF += $(addprefix $(OUTPUT_DIR)/, $(EMPTY_PDF))
 
 
 all: $(OUTPUT_PDF)
